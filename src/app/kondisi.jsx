@@ -1,10 +1,10 @@
 import { Text, View, StyleSheet } from "react-native";
 export default function KonVar() {
 
-  //   // soal study kasus kondisi nomer 1
-  // let nilaiUjian =75;
-  // const isLulus = nilaiUjian >= 75;
-  // const pesan = isLulus ? "Selamat, kamu Lulus!" : "Maaf, kamu Belum Lulus.";
+    // soal study kasus kondisi nomer 1
+  let nilaiUjian =75;
+  const isLulus = nilaiUjian >= 75;
+  const pesan = isLulus ? "Selamat, kamu Lulus!" : "Maaf, kamu Belum Lulus.";
 
   // // soal study kasus kondisi nomer 2
   // let suhuUdara = 38;

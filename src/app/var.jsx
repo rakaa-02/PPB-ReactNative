@@ -1,14 +1,14 @@
 import { Text, View, StyleSheet } from "react-native";
 
 export default function latVar() {
-  // let firstname = "budi";
-  // const lastname = "santoso";
-  // let isAktif = true;
+  let firstname = "budi";
+  const lastname = "santoso";
+  let isAktif = true;
 
-  // const outputmMassage = (`akun atas nama : ${firstname} dan ${lastname} ${isAktif} `) ;
-  // console.log(firstname);
-  // console.log(lastname);
-  //   console.log(keluaran);
+  const outputmMassage = (`akun atas nama : ${firstname} dan ${lastname} ${isAktif} `) ;
+  console.log(firstname);
+  console.log(lastname);
+  console.log(outputmMassage);
 
   // soal 2
   // const rawUsername = " admin_smkn10 ";
@@ -21,11 +21,11 @@ export default function latVar() {
   // Export supaya bisa dipanggil dari file lain
 
   return (
-    <View>
-      <Text>Nilai Ujian: {nilaiUjian}</Text>
-      <Text>{pesan}</Text>
-    </View>
-  );
+        <View>
+          <Text>Nama {firstname}</Text>
+          <Text>{outputmMassage}</Text>
+        </View>
+      );
     
 
 }
