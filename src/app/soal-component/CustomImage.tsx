@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { View, Image, ActivityIndicator, StyleSheet, ScrollView } from 'react-native';
 
 interface CustomImageProps {
-  // Mengubah dari single string menjadi array string [url1, url2, ...]
   sourceUrls: string[];
 }
 
