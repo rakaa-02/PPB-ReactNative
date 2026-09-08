@@ -8,12 +8,10 @@ export default function DashboardUtama() {
       <Text style={styles.header}>Tugas React Native</Text>
       <Text style={styles.subHeader}>Berikut daftar tugas</Text>
 
-     {/* MODUL DASAR JAVASCRIPT */}
-    {/* <Text style={styles.kategoriTitle}>Latihan Dasar JavaScript</Text> */}
     <Link href="/soal-loop" asChild>
       <Pressable style={styles.cardMenu}>
         <Text style={styles.menuTitle}>1. Soal Loop</Text>
-        <Text style={styles.menuDesc}>Latihan perulangan (For / While)</Text>
+        {/* <Text style={styles.menuDesc}>Latihan perulangan </Text> */}
       </Pressable>
     </Link>
     
@@ -23,25 +21,28 @@ export default function DashboardUtama() {
         <Text style={styles.menuDesc}>Latihan manipulasi data list & array method</Text>
       </Pressable>
     </Link>
+
     <Link href="/soal-kondisi" asChild>
       <Pressable style={styles.cardMenu}>
         <Text style={styles.menuTitle}>3. Soal Kondisi</Text>
-        <Text style={styles.menuDesc}>Latihan percabangan (If / Else)</Text>
+        {/* <Text style={styles.menuDesc}>Latihan percabangan</Text> */}
       </Pressable>
     </Link>
+
     <Link href="/soal-fungsi" asChild>
       <Pressable style={styles.cardMenu}>
         <Text style={styles.menuTitle}>4. Soal Fungsi</Text>
-        <Text style={styles.menuDesc}>Latihan pembuatan & pemanggilan function</Text>
+        <Text style={styles.menuDesc}>Latihan pembuatan dan pemanggilan function</Text>
       </Pressable>
     </Link>
+
     <Link href="/soal-var" asChild>
       <Pressable style={styles.cardMenu}>
         <Text style={styles.menuTitle}>5. Soal Variabel</Text>
-        <Text style={styles.menuDesc}>Latihan pemahaman var, let, & const</Text>
+        <Text style={styles.menuDesc}>Latihan pemahaman var, let, dan const</Text>
       </Pressable>
     </Link>
-         {/* MODUL COMPONENT */}
+  
     <Link href="/soal-component" asChild>
       <Pressable style={StyleSheet.flatten([styles.cardMenu, styles.cardHighlight])}>
         <Text style={styles.menuTitle}>6. Soal Component</Text>

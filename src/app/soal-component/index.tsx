@@ -26,16 +26,16 @@ export default function HalamanSoalComponent() {
   return (
     <ScrollView style={[styles.container, { backgroundColor: themeBg }]}>
       <Text style={[styles.headerTitle, { color: themeText }]}>
-        Modul 10 Soal Component
+       10 Soal Component
       </Text>
 
       {/* Soal 1 */}
       <View style={[styles.card, { backgroundColor: themeCard, borderColor: themeBorder }]}>
         <Text style={styles.labelNomor}>Soal 1: Profil Pengguna</Text>
         <UserCard 
-          name="John Doe" 
-          status="React Native Developer" 
-          imageUrl="https://reactnative.dev/img/tiny_logo.png" 
+          name="Adyaraka Sholehudin Syahputra" 
+          status="Pelajar SMKN 10 Surabaya" 
+          imageUrl="https://www.bing.com/th/id/OIP.IGNf7GuQaCqz_RPq5wCkPgHaLH?w=193&h=290&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=ImgAns&rm=2" 
         />
       </View>
 
@@ -71,7 +71,7 @@ export default function HalamanSoalComponent() {
 
       {/* Soal 7 */}
       <View style={[styles.card, { backgroundColor: themeCard, borderColor: themeBorder }]}>
-        <Text style={styles.labelNomor}>Soal 7: Galeri Foto (Menyamping)</Text>
+        <Text style={styles.labelNomor}>Soal 7: Galeri Foto</Text>
         <CustomImage 
           sourceUrls={[
             'https://reactnative.dev/img/tiny_logo.png',

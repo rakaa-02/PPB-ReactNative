@@ -35,7 +35,7 @@ function ImageItem({ url }: { url: string }) {
 
 const styles = StyleSheet.create({
   rowContainer: {
-    flexDirection: 'row', // <-- KUNCI UTAMA: Menata item secara menyamping
+    flexDirection: 'row', 
     alignItems: 'center',
     paddingVertical: 5,
   },
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#eee',
     borderRadius: 8,
-    marginRight: 12, // Jarak antar foto ke samping
+    marginRight: 12,
   },
   image: {
     width: 100,

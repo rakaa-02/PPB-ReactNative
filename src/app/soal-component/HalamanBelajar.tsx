@@ -19,10 +19,12 @@ export default function HalamanPembelajaran() {
       <ScrollView style={styles.kontenScroll}>
         <Text style={styles.judulArtikel}>Artikel Pembelajaran</Text>
         <Text style={styles.paragraf}>
-          Ini adalah konten pembelajaran vertikal. Kamu bisa membaca materi lengkap di sini sampai bawah...
+          Ini adalah halamann artikel pembelajaran
         </Text>
         <Text style={styles.paragraf}>
-          React Native memungkinkan pembuatan antarmuka fleksibel dengan ScrollView horizontal dan vertikal sekaligus.
+          Perkenalkan Nama saya Adyaraka Sholehudin Syahputra <br></br>
+          dari Sekolah SMKN 10 Surabaya
+          Kelas: XII RPL 3
         </Text>
       </ScrollView>
     </View>
